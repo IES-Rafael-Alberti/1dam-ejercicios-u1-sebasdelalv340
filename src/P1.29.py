@@ -13,8 +13,8 @@ def main():
 
     while edad <= 0 or edad > 125:
         edad = int(input("Introduce una edad entre 0 y 125: "))
-    
-    print(f"Te lamas {nombre} y tienes {edad} años, te quedan aún {125 - edad} años por cumplir.")
+    else:
+        print(f"Te lamas {nombre} y tienes {edad} años, te quedan aún {125 - edad} años por cumplir.")
 
 if __name__ == "__main__":
     main()

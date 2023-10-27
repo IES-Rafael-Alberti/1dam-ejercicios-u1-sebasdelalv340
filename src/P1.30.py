@@ -23,8 +23,8 @@ def main():
     while n < total_serie:
         n = n + incremento
         serie = serie + ("-") + str(n)
-    
-    print(serie)
+    else:
+        print(serie)
 
 if __name__ == "__main__":
     main()
