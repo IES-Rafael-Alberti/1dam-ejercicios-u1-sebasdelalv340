@@ -46,6 +46,7 @@ def main():
 
     while total < 1 or total > 100:
         print("Error - el número de notas debe ser un número entero entre 1 y 100")
+        total = int(input())
     
     print(f"Dame las {total} notas del curso:")
 
