@@ -3,4 +3,5 @@
 nombre = input("Introduce tu nombre: ")
 n = int(input("Introduce un número: "))
 
-print(nombre * n)
+serie = ((nombre + "\n") * n)
+print(serie)
