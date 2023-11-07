@@ -18,16 +18,17 @@ Inicio
 	Escribe "Correcto!"
 	
 Fin"""
-       
 
-def main():
-    
-    n = int(input("Introduce un número: "))
-
+def obtenerRango (n):
     while n < 1 or n > 10:
         n = int(input("Inténtalo otra vez! (1-10): "))
     else:
         print("¡Correcto!")
+        
+
+def main():
+    n = int(input("Introduce un número: "))
+    obtenerRango(n)
 
     
 if __name__ == "__main__":
